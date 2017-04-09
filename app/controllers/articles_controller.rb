@@ -30,6 +30,7 @@ class ArticlesController < ApplicationController
 		else
 			render 'edit'
 		end
+	end
 
 	def show
 		@article = Article.find(params[:id])
